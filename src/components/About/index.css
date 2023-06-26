@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.about-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desktop-about-image {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .mobile-about-image {
+    display: none;
+  }
+  .desktop-about-image {
+    display: block;
+  }
+}
